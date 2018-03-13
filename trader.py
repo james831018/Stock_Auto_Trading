@@ -168,7 +168,7 @@ if __name__ == '__main__':
         elif(action==1):
             csvCursor2.writerow("1")
         if(action==-1):
-            csvCursor2.writerow("-1")
+            csvCursor2.writerow("[-1]")
         last_day=row[0]
     print ("status:"+str(status))
     if(status==0):
